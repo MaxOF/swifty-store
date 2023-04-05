@@ -1,0 +1,12 @@
+version: '3'
+services:
+  nats:
+    image: nats
+    ports:
+      - '8222:8222'
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
