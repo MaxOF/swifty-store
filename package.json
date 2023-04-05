@@ -1,7 +1,7 @@
 {
-  "name": "ddd",
+  "name": "@swifty-store",
   "version": "0.0.1",
-  "description": "",
+  "description": "Backend for online store",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
