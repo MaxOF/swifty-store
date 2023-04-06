@@ -1,8 +1,4 @@
-import { NestFactory } from '@nestjs/core';
-import { MyAppModule } from './my-app.module';
+import { CommonSetup } from '@swifty-store/common';
+import { UsersModule } from './users.module';
 
-async function bootstrap() {
-  const app = await NestFactory.create(MyAppModule);
-  await app.listen(3000);
-}
-bootstrap();
+CommonSetup(UsersModule);

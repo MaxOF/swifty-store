@@ -22,9 +22,6 @@ export class NatsConfigService {
   }
 
   public get url(): string {
-    return this.configService.get<string>(
-      'NATS_URL',
-      `nats://${this.host}:${this.port}`,
-    );
+    return this.configService.get<string>('NATS_URL', `nats://${this.host}:${this.port}`);
   }
 }
