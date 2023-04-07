@@ -1,0 +1,13 @@
+.git
+
+.github
+
+.kube
+
+.idea
+
+node_modules
+
+dist
+
+test
